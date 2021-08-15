@@ -1,4 +1,1 @@
-﻿/.vs
-/build/vs16/.vs/mcwrapper/v16
-/build/vs16/x64/Debug
-/build/vs16/mcwrapper.vcxproj.user
+﻿/config.json
