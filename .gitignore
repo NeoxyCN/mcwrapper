@@ -1,1 +1,2 @@
-﻿/config.json
+﻿utils/__pycache__/*
+core/__pycache__/*
