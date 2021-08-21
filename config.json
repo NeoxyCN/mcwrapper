@@ -1,3 +1,6 @@
 {
-    
+    "servername":"test server",
+    "info":{
+        "s":"21"
+    }
 }

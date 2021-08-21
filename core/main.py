@@ -1,4 +1,4 @@
 from core import config
-
+from utils.logger import log
 def run():
-    config.loadConfig()
+    log(config.getConfig("servername"))
