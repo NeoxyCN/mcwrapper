@@ -1,4 +1,5 @@
 # mcwrapper 
-
-TO BE CONTINUED 
-
+## Setup
+```
+python mcwrapper.py init
+```

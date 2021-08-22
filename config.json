@@ -1,6 +1,11 @@
 {
-    "servername":"test server",
-    "info":{
-        "s":"21"
+    "run":[
+        "ipconfig",
+        "echo run"
+    ],
+    "server":{
+        "path":"./server/",
+        "name":"server.jar",
+        "args":"java server.jar -Xincgc -Xmx4G -jar --nogui"
     }
 }

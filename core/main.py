@@ -1,4 +1,12 @@
 from core import config
-from utils.logger import log
-def run():
-    log(config.getConfig("servername"))
+from utils.logger import logInfo
+
+
+def run(args):
+    if len(args) == 2 and args[1] == "init":
+        # TODO: Init
+        init(args)
+    logInfo(config.getConfig("\033servername\033"))
+
+def init(args):
+    pass
